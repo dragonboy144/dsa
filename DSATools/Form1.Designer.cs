@@ -38,16 +38,20 @@
             this.label4 = new System.Windows.Forms.Label();
             this.tBAPPreis = new System.Windows.Forms.TextBox();
             this.OpenFileDialog = new System.Windows.Forms.OpenFileDialog();
-            this.bTabelle = new System.Windows.Forms.Button();
+            this.bSettings = new System.Windows.Forms.Button();
+            this.cBEidetisch = new System.Windows.Forms.CheckBox();
+            this.cBAkademisch = new System.Windows.Forms.CheckBox();
+            this.cBGut = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.nUDStartwert)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nUDEndwert)).BeginInit();
             this.SuspendLayout();
             // 
             // bBerechnen
             // 
-            this.bBerechnen.Enabled = false;
+            this.bBerechnen.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.bBerechnen.AutoSize = true;
             this.bBerechnen.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bBerechnen.Location = new System.Drawing.Point(227, 200);
+            this.bBerechnen.Location = new System.Drawing.Point(572, 200);
             this.bBerechnen.Name = "bBerechnen";
             this.bBerechnen.Size = new System.Drawing.Size(164, 121);
             this.bBerechnen.TabIndex = 0;
@@ -76,6 +80,8 @@
             // 
             // nUDStartwert
             // 
+            this.nUDStartwert.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.nUDStartwert.AutoSize = true;
             this.nUDStartwert.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nUDStartwert.Location = new System.Drawing.Point(138, 93);
             this.nUDStartwert.Maximum = new decimal(new int[] {
@@ -89,7 +95,7 @@
             0,
             -2147483648});
             this.nUDStartwert.Name = "nUDStartwert";
-            this.nUDStartwert.Size = new System.Drawing.Size(120, 29);
+            this.nUDStartwert.Size = new System.Drawing.Size(465, 29);
             this.nUDStartwert.TabIndex = 3;
             // 
             // label1
@@ -104,9 +110,10 @@
             // 
             // label2
             // 
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(138, 9);
+            this.label2.Location = new System.Drawing.Point(311, 9);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(92, 29);
             this.label2.TabIndex = 5;
@@ -114,9 +121,10 @@
             // 
             // label3
             // 
+            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(267, 9);
+            this.label3.Location = new System.Drawing.Point(612, 9);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(109, 29);
             this.label3.TabIndex = 6;
@@ -124,8 +132,10 @@
             // 
             // nUDEndwert
             // 
+            this.nUDEndwert.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.nUDEndwert.AutoSize = true;
             this.nUDEndwert.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nUDEndwert.Location = new System.Drawing.Point(264, 93);
+            this.nUDEndwert.Location = new System.Drawing.Point(609, 93);
             this.nUDEndwert.Maximum = new decimal(new int[] {
             50,
             0,
@@ -147,9 +157,10 @@
             // 
             // label4
             // 
+            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(11, 185);
+            this.label4.Location = new System.Drawing.Point(7, 245);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(114, 29);
             this.label4.TabIndex = 8;
@@ -157,6 +168,7 @@
             // 
             // tBAPPreis
             // 
+            this.tBAPPreis.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.tBAPPreis.BackColor = System.Drawing.SystemColors.Control;
             this.tBAPPreis.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tBAPPreis.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold);
@@ -173,23 +185,63 @@
             this.OpenFileDialog.Filter = "csv files (*.csv)|*.csv|All files (*.*)|*.*";
             this.OpenFileDialog.Title = "Datei öffnen";
             // 
-            // bTabelle
+            // bSettings
             // 
-            this.bTabelle.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bTabelle.Location = new System.Drawing.Point(227, 128);
-            this.bTabelle.Name = "bTabelle";
-            this.bTabelle.Size = new System.Drawing.Size(164, 66);
-            this.bTabelle.TabIndex = 11;
-            this.bTabelle.Text = "Tabelle Laden";
-            this.bTabelle.UseVisualStyleBackColor = true;
-            this.bTabelle.Click += new System.EventHandler(this.bTabelle_Click);
+            this.bSettings.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.bSettings.AutoSize = true;
+            this.bSettings.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bSettings.Location = new System.Drawing.Point(572, 128);
+            this.bSettings.Name = "bSettings";
+            this.bSettings.Size = new System.Drawing.Size(164, 66);
+            this.bSettings.TabIndex = 11;
+            this.bSettings.Text = "Einstellungen";
+            this.bSettings.UseVisualStyleBackColor = true;
+            this.bSettings.Click += new System.EventHandler(this.bSettings_Click);
+            // 
+            // cBEidetisch
+            // 
+            this.cBEidetisch.AutoSize = true;
+            this.cBEidetisch.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cBEidetisch.Location = new System.Drawing.Point(138, 169);
+            this.cBEidetisch.Name = "cBEidetisch";
+            this.cBEidetisch.Size = new System.Drawing.Size(340, 35);
+            this.cBEidetisch.TabIndex = 12;
+            this.cBEidetisch.Text = "Eidetisches Gedächtnis";
+            this.cBEidetisch.UseVisualStyleBackColor = true;
+            // 
+            // cBAkademisch
+            // 
+            this.cBAkademisch.AutoSize = true;
+            this.cBAkademisch.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cBAkademisch.Location = new System.Drawing.Point(138, 210);
+            this.cBAkademisch.Name = "cBAkademisch";
+            this.cBAkademisch.Size = new System.Drawing.Size(359, 35);
+            this.cBAkademisch.TabIndex = 13;
+            this.cBAkademisch.Text = "Akademische Ausbildung";
+            this.cBAkademisch.UseVisualStyleBackColor = true;
+            // 
+            // cBGut
+            // 
+            this.cBGut.AutoSize = true;
+            this.cBGut.Enabled = false;
+            this.cBGut.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cBGut.Location = new System.Drawing.Point(138, 128);
+            this.cBGut.Name = "cBGut";
+            this.cBGut.Size = new System.Drawing.Size(267, 35);
+            this.cBGut.TabIndex = 14;
+            this.cBGut.Text = "Gutes Gedächtnis";
+            this.cBGut.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(403, 333);
-            this.Controls.Add(this.bTabelle);
+            this.BackColor = System.Drawing.SystemColors.Control;
+            this.ClientSize = new System.Drawing.Size(748, 333);
+            this.Controls.Add(this.cBGut);
+            this.Controls.Add(this.cBAkademisch);
+            this.Controls.Add(this.cBEidetisch);
+            this.Controls.Add(this.bSettings);
             this.Controls.Add(this.tBAPPreis);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.nUDEndwert);
@@ -200,6 +252,7 @@
             this.Controls.Add(this.lBSpalte);
             this.Controls.Add(this.bBerechnen);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "AP Rechner";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -222,7 +275,10 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox tBAPPreis;
         private System.Windows.Forms.OpenFileDialog OpenFileDialog;
-        private System.Windows.Forms.Button bTabelle;
+        private System.Windows.Forms.Button bSettings;
+        private System.Windows.Forms.CheckBox cBEidetisch;
+        private System.Windows.Forms.CheckBox cBAkademisch;
+        private System.Windows.Forms.CheckBox cBGut;
     }
 }
 
