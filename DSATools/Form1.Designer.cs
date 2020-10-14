@@ -38,7 +38,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.tBAPPreis = new System.Windows.Forms.TextBox();
             this.OpenFileDialog = new System.Windows.Forms.OpenFileDialog();
-            this.bSettings = new System.Windows.Forms.Button();
             this.cBEidetisch = new System.Windows.Forms.CheckBox();
             this.cBAkademisch = new System.Windows.Forms.CheckBox();
             this.cBGut = new System.Windows.Forms.CheckBox();
@@ -185,19 +184,6 @@
             this.OpenFileDialog.Filter = "csv files (*.csv)|*.csv|All files (*.*)|*.*";
             this.OpenFileDialog.Title = "Datei öffnen";
             // 
-            // bSettings
-            // 
-            this.bSettings.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.bSettings.AutoSize = true;
-            this.bSettings.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bSettings.Location = new System.Drawing.Point(572, 128);
-            this.bSettings.Name = "bSettings";
-            this.bSettings.Size = new System.Drawing.Size(164, 66);
-            this.bSettings.TabIndex = 11;
-            this.bSettings.Text = "Einstellungen";
-            this.bSettings.UseVisualStyleBackColor = true;
-            this.bSettings.Click += new System.EventHandler(this.bSettings_Click);
-            // 
             // cBEidetisch
             // 
             this.cBEidetisch.AutoSize = true;
@@ -241,7 +227,6 @@
             this.Controls.Add(this.cBGut);
             this.Controls.Add(this.cBAkademisch);
             this.Controls.Add(this.cBEidetisch);
-            this.Controls.Add(this.bSettings);
             this.Controls.Add(this.tBAPPreis);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.nUDEndwert);
@@ -275,7 +260,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox tBAPPreis;
         private System.Windows.Forms.OpenFileDialog OpenFileDialog;
-        private System.Windows.Forms.Button bSettings;
         private System.Windows.Forms.CheckBox cBEidetisch;
         private System.Windows.Forms.CheckBox cBAkademisch;
         private System.Windows.Forms.CheckBox cBGut;
