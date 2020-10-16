@@ -13,8 +13,8 @@ namespace DSATools
     public partial class Main : Form
     {
         Form1 fSteigerung = new Form1();
+        ZauberWerkstatt fZauberWerkstatt = new ZauberWerkstatt();
 
-        Boolean fSteigerungVisible = false;
 
         public Main()
         {
@@ -34,7 +34,14 @@ namespace DSATools
 
         private void bZauberwerkstatt_Click(object sender, EventArgs e)
         {
-
+            if (fZauberWerkstatt.Visible == false)
+            {
+                fZauberWerkstatt.Show();
+            }
+            else
+            {
+                fZauberWerkstatt.Hide();
+            }
         }
     }
 }
