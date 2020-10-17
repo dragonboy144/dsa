@@ -50,46 +50,49 @@
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.richTextBox2 = new System.Windows.Forms.RichTextBox();
-            this.cBWirkungsbereichAendern = new System.Windows.Forms.CheckBox();
-            this.cBWirkungsbereichFrei = new System.Windows.Forms.CheckBox();
-            this.cBElementareTransition = new System.Windows.Forms.CheckBox();
-            this.cBGegenelement = new System.Windows.Forms.CheckBox();
-            this.cBUebertragungRepresentation = new System.Windows.Forms.CheckBox();
-            this.cBKomboRepraesentation = new System.Windows.Forms.CheckBox();
-            this.cBDaemonischeTransition = new System.Windows.Forms.CheckBox();
-            this.cBMetaphorischeTransition = new System.Windows.Forms.CheckBox();
-            this.cBKombination = new System.Windows.Forms.CheckBox();
-            this.cBReversalis = new System.Windows.Forms.CheckBox();
-            this.cBSynthese = new System.Windows.Forms.CheckBox();
-            this.cBErweiterungZieleF = new System.Windows.Forms.CheckBox();
-            this.cbErweiterungZieleS = new System.Windows.Forms.CheckBox();
             this.lASPAenderung = new System.Windows.Forms.Label();
             this.lZauberdauerAenderung = new System.Windows.Forms.Label();
             this.bBerechnen = new System.Windows.Forms.Button();
             this.gBGrosseModifikationen = new System.Windows.Forms.GroupBox();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.modTechnickAendern = new DSATools.ZWNummericUpDown();
-            this.modTechnickWeg = new DSATools.ZWNummericUpDown();
-            this.modZentTechnickAendern = new DSATools.ZWNummericUpDown();
-            this.modZentTechnickWeg = new DSATools.ZWNummericUpDown();
-            this.modTechnickVerfeinern = new DSATools.ZWNummericUpDown();
-            this.modZauberdauerVerlängern = new DSATools.ZWNummericUpDown();
-            this.modZauberdauerVerkuerzen = new DSATools.ZWNummericUpDown();
-            this.modErzwingen = new DSATools.ZWNummericUpDown();
-            this.modAspSparen = new DSATools.ZWNummericUpDown();
-            this.modaufFreiwilligeEinzelperson = new DSATools.ZWNummericUpDown();
-            this.modReichweiteVergroessern = new DSATools.ZWNummericUpDown();
-            this.modReichweiteVerkleinern = new DSATools.ZWNummericUpDown();
-            this.modWirkungsdauer2x = new DSATools.ZWNummericUpDown();
-            this.modWirkungsdauer05X = new DSATools.ZWNummericUpDown();
-            this.modWeitere = new DSATools.ZWNummericUpDown();
-            this.modDauerMinimieren = new DSATools.ZWNummericUpDown();
-            this.modAspOptimieren = new DSATools.ZWNummericUpDown();
-            this.modPotenzieren = new DSATools.ZWNummericUpDown();
-            this.modMerkmalenureinmal = new DSATools.ZWNummericUpDown();
-            this.modGegensaetzlicheMerkmale = new DSATools.ZWNummericUpDown();
+            this.modKomboRepraesentationen = new DSATools.ZWNummericUpDown();
+            this.modRepraesentation = new DSATools.ZWNummericUpDown();
+            this.modSynthese = new DSATools.ZWNummericUpDown();
+            this.modReversalis = new DSATools.ZWNummericUpDown();
+            this.modKombination = new DSATools.ZWNummericUpDown();
+            this.modMetaphorischeTransition = new DSATools.ZWNummericUpDown();
+            this.modDämonischeTransition = new DSATools.ZWNummericUpDown();
+            this.modElementareTransitionGegenelement = new DSATools.ZWNummericUpDown();
+            this.modElementareTransition = new DSATools.ZWNummericUpDown();
+            this.modErweiterungSelbst = new DSATools.ZWNummericUpDown();
+            this.modErweitrungFreiwillig = new DSATools.ZWNummericUpDown();
             this.modDaemonischElementar = new DSATools.ZWNummericUpDown();
+            this.modGegensaetzlicheMerkmale = new DSATools.ZWNummericUpDown();
+            this.modMerkmalenureinmal = new DSATools.ZWNummericUpDown();
+            this.modPotenzieren = new DSATools.ZWNummericUpDown();
+            this.modAspOptimieren = new DSATools.ZWNummericUpDown();
+            this.modDauerMinimieren = new DSATools.ZWNummericUpDown();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.modFesteWirkungsdauer = new DSATools.ZWNummericUpDown();
             this.modMehrLeute = new DSATools.ZWNummericUpDown();
+            this.modWeitere = new DSATools.ZWNummericUpDown();
+            this.modWirkungsdauer05X = new DSATools.ZWNummericUpDown();
+            this.modWirkungsdauer2x = new DSATools.ZWNummericUpDown();
+            this.modReichweiteVerkleinern = new DSATools.ZWNummericUpDown();
+            this.modReichweiteVergroessern = new DSATools.ZWNummericUpDown();
+            this.modaufFreiwilligeEinzelperson = new DSATools.ZWNummericUpDown();
+            this.modAspSparen = new DSATools.ZWNummericUpDown();
+            this.modErzwingen = new DSATools.ZWNummericUpDown();
+            this.modZauberdauerVerkuerzen = new DSATools.ZWNummericUpDown();
+            this.modZauberdauerVerlängern = new DSATools.ZWNummericUpDown();
+            this.modTechnickVerfeinern = new DSATools.ZWNummericUpDown();
+            this.modZentTechnickWeg = new DSATools.ZWNummericUpDown();
+            this.modZentTechnickAendern = new DSATools.ZWNummericUpDown();
+            this.modTechnickWeg = new DSATools.ZWNummericUpDown();
+            this.modTechnickAendern = new DSATools.ZWNummericUpDown();
+            this.modWirkungsbereichAendern = new DSATools.ZWNummericUpDown();
+            this.modFreierWirkungsbereich = new DSATools.ZWNummericUpDown();
+            this.modMetaphorischnichtNah = new DSATools.ZWNummericUpDown();
+            this.modKomboGegenElement = new DSATools.ZWNummericUpDown();
             ((System.ComponentModel.ISupportInitialize)(this.nUDMerkmalskenntnisse)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nUDBedingungen)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nUDZfW1)).BeginInit();
@@ -98,29 +101,45 @@
             ((System.ComponentModel.ISupportInitialize)(this.nUDZfW4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nUDAnzahl)).BeginInit();
             this.gBGrosseModifikationen.SuspendLayout();
-            this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.modTechnickAendern)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.modTechnickWeg)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.modZentTechnickAendern)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.modZentTechnickWeg)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.modTechnickVerfeinern)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.modZauberdauerVerlängern)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.modZauberdauerVerkuerzen)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.modErzwingen)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.modAspSparen)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.modaufFreiwilligeEinzelperson)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.modReichweiteVergroessern)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.modReichweiteVerkleinern)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.modWirkungsdauer2x)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.modWirkungsdauer05X)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.modWeitere)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.modDauerMinimieren)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.modAspOptimieren)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.modPotenzieren)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.modMerkmalenureinmal)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.modGegensaetzlicheMerkmale)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.modKomboRepraesentationen)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.modRepraesentation)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.modSynthese)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.modReversalis)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.modKombination)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.modMetaphorischeTransition)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.modDämonischeTransition)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.modElementareTransitionGegenelement)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.modElementareTransition)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.modErweiterungSelbst)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.modErweitrungFreiwillig)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.modDaemonischElementar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.modGegensaetzlicheMerkmale)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.modMerkmalenureinmal)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.modPotenzieren)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.modAspOptimieren)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.modDauerMinimieren)).BeginInit();
+            this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.modFesteWirkungsdauer)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.modMehrLeute)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.modWeitere)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.modWirkungsdauer05X)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.modWirkungsdauer2x)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.modReichweiteVerkleinern)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.modReichweiteVergroessern)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.modaufFreiwilligeEinzelperson)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.modAspSparen)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.modErzwingen)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.modZauberdauerVerkuerzen)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.modZauberdauerVerlängern)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.modTechnickVerfeinern)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.modZentTechnickWeg)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.modZentTechnickAendern)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.modTechnickWeg)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.modTechnickAendern)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.modWirkungsbereichAendern)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.modFreierWirkungsbereich)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.modMetaphorischnichtNah)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.modKomboGegenElement)).BeginInit();
             this.SuspendLayout();
             // 
             // cLBModifikationen
@@ -138,7 +157,8 @@
             "passende Begabung",
             "SF Matrixkontrolle",
             "Kenntnis beider Repräsentationen",
-            "schelmischer Zauber"});
+            "schelmischer Zauber",
+            "SF Simultanzauber"});
             this.cLBModifikationen.Location = new System.Drawing.Point(12, 37);
             this.cLBModifikationen.Name = "cLBModifikationen";
             this.cLBModifikationen.Size = new System.Drawing.Size(317, 210);
@@ -149,7 +169,7 @@
             this.nUDMerkmalskenntnisse.BackColor = System.Drawing.SystemColors.Control;
             this.nUDMerkmalskenntnisse.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.nUDMerkmalskenntnisse.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nUDMerkmalskenntnisse.Location = new System.Drawing.Point(258, 228);
+            this.nUDMerkmalskenntnisse.Location = new System.Drawing.Point(258, 251);
             this.nUDMerkmalskenntnisse.Maximum = new decimal(new int[] {
             20,
             0,
@@ -163,7 +183,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, 227);
+            this.label1.Location = new System.Drawing.Point(12, 250);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(240, 20);
             this.label1.TabIndex = 2;
@@ -173,7 +193,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(12, 247);
+            this.label2.Location = new System.Drawing.Point(12, 270);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(199, 20);
             this.label2.TabIndex = 3;
@@ -184,7 +204,7 @@
             this.nUDBedingungen.BackColor = System.Drawing.SystemColors.Control;
             this.nUDBedingungen.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.nUDBedingungen.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nUDBedingungen.Location = new System.Drawing.Point(217, 248);
+            this.nUDBedingungen.Location = new System.Drawing.Point(217, 271);
             this.nUDBedingungen.Maximum = new decimal(new int[] {
             10,
             0,
@@ -203,7 +223,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(4, 273);
+            this.label3.Location = new System.Drawing.Point(4, 296);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(318, 18);
             this.label3.TabIndex = 6;
@@ -222,9 +242,9 @@
             "F",
             "G",
             "H"});
-            this.lBSpalte.Location = new System.Drawing.Point(7, 294);
+            this.lBSpalte.Location = new System.Drawing.Point(7, 317);
             this.lBSpalte.Name = "lBSpalte";
-            this.lBSpalte.Size = new System.Drawing.Size(120, 121);
+            this.lBSpalte.Size = new System.Drawing.Size(67, 121);
             this.lBSpalte.TabIndex = 5;
             this.lBSpalte.SelectedIndexChanged += new System.EventHandler(this.lBSpalte_SelectedIndexChanged);
             // 
@@ -253,7 +273,7 @@
             this.nUDZfW1.BackColor = System.Drawing.SystemColors.Control;
             this.nUDZfW1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.nUDZfW1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nUDZfW1.Location = new System.Drawing.Point(16, 445);
+            this.nUDZfW1.Location = new System.Drawing.Point(16, 468);
             this.nUDZfW1.Maximum = new decimal(new int[] {
             999,
             0,
@@ -268,7 +288,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(12, 418);
+            this.label4.Location = new System.Drawing.Point(12, 441);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(290, 24);
             this.label4.TabIndex = 10;
@@ -279,7 +299,7 @@
             this.nUDZfW2.BackColor = System.Drawing.SystemColors.Control;
             this.nUDZfW2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.nUDZfW2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nUDZfW2.Location = new System.Drawing.Point(80, 445);
+            this.nUDZfW2.Location = new System.Drawing.Point(80, 468);
             this.nUDZfW2.Maximum = new decimal(new int[] {
             999,
             0,
@@ -295,7 +315,7 @@
             this.nUDZfW3.BackColor = System.Drawing.SystemColors.Control;
             this.nUDZfW3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.nUDZfW3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nUDZfW3.Location = new System.Drawing.Point(153, 445);
+            this.nUDZfW3.Location = new System.Drawing.Point(153, 468);
             this.nUDZfW3.Maximum = new decimal(new int[] {
             999,
             0,
@@ -311,7 +331,7 @@
             this.nUDZfW4.BackColor = System.Drawing.SystemColors.Control;
             this.nUDZfW4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.nUDZfW4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nUDZfW4.Location = new System.Drawing.Point(217, 445);
+            this.nUDZfW4.Location = new System.Drawing.Point(217, 468);
             this.nUDZfW4.Maximum = new decimal(new int[] {
             999,
             0,
@@ -418,136 +438,6 @@
             this.richTextBox2.TabIndex = 38;
             this.richTextBox2.Text = resources.GetString("richTextBox2.Text");
             // 
-            // cBWirkungsbereichAendern
-            // 
-            this.cBWirkungsbereichAendern.AutoSize = true;
-            this.cBWirkungsbereichAendern.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cBWirkungsbereichAendern.Location = new System.Drawing.Point(3, 63);
-            this.cBWirkungsbereichAendern.Name = "cBWirkungsbereichAendern";
-            this.cBWirkungsbereichAendern.Size = new System.Drawing.Size(15, 14);
-            this.cBWirkungsbereichAendern.TabIndex = 39;
-            this.cBWirkungsbereichAendern.UseVisualStyleBackColor = true;
-            // 
-            // cBWirkungsbereichFrei
-            // 
-            this.cBWirkungsbereichFrei.AutoSize = true;
-            this.cBWirkungsbereichFrei.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cBWirkungsbereichFrei.Location = new System.Drawing.Point(3, 83);
-            this.cBWirkungsbereichFrei.Name = "cBWirkungsbereichFrei";
-            this.cBWirkungsbereichFrei.Size = new System.Drawing.Size(15, 14);
-            this.cBWirkungsbereichFrei.TabIndex = 40;
-            this.cBWirkungsbereichFrei.UseVisualStyleBackColor = true;
-            // 
-            // cBElementareTransition
-            // 
-            this.cBElementareTransition.AutoSize = true;
-            this.cBElementareTransition.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cBElementareTransition.Location = new System.Drawing.Point(3, 323);
-            this.cBElementareTransition.Name = "cBElementareTransition";
-            this.cBElementareTransition.Size = new System.Drawing.Size(15, 14);
-            this.cBElementareTransition.TabIndex = 41;
-            this.cBElementareTransition.UseVisualStyleBackColor = true;
-            // 
-            // cBGegenelement
-            // 
-            this.cBGegenelement.AutoSize = true;
-            this.cBGegenelement.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cBGegenelement.Location = new System.Drawing.Point(3, 343);
-            this.cBGegenelement.Name = "cBGegenelement";
-            this.cBGegenelement.Size = new System.Drawing.Size(15, 14);
-            this.cBGegenelement.TabIndex = 42;
-            this.cBGegenelement.UseVisualStyleBackColor = true;
-            // 
-            // cBUebertragungRepresentation
-            // 
-            this.cBUebertragungRepresentation.AutoSize = true;
-            this.cBUebertragungRepresentation.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cBUebertragungRepresentation.Location = new System.Drawing.Point(3, 662);
-            this.cBUebertragungRepresentation.Name = "cBUebertragungRepresentation";
-            this.cBUebertragungRepresentation.Size = new System.Drawing.Size(15, 14);
-            this.cBUebertragungRepresentation.TabIndex = 43;
-            this.cBUebertragungRepresentation.UseVisualStyleBackColor = true;
-            // 
-            // cBKomboRepraesentation
-            // 
-            this.cBKomboRepraesentation.AutoSize = true;
-            this.cBKomboRepraesentation.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cBKomboRepraesentation.Location = new System.Drawing.Point(3, 703);
-            this.cBKomboRepraesentation.Name = "cBKomboRepraesentation";
-            this.cBKomboRepraesentation.Size = new System.Drawing.Size(15, 14);
-            this.cBKomboRepraesentation.TabIndex = 44;
-            this.cBKomboRepraesentation.UseVisualStyleBackColor = true;
-            // 
-            // cBDaemonischeTransition
-            // 
-            this.cBDaemonischeTransition.AutoSize = true;
-            this.cBDaemonischeTransition.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cBDaemonischeTransition.Location = new System.Drawing.Point(3, 385);
-            this.cBDaemonischeTransition.Name = "cBDaemonischeTransition";
-            this.cBDaemonischeTransition.Size = new System.Drawing.Size(15, 14);
-            this.cBDaemonischeTransition.TabIndex = 45;
-            this.cBDaemonischeTransition.UseVisualStyleBackColor = true;
-            // 
-            // cBMetaphorischeTransition
-            // 
-            this.cBMetaphorischeTransition.AutoSize = true;
-            this.cBMetaphorischeTransition.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cBMetaphorischeTransition.Location = new System.Drawing.Point(3, 423);
-            this.cBMetaphorischeTransition.Name = "cBMetaphorischeTransition";
-            this.cBMetaphorischeTransition.Size = new System.Drawing.Size(15, 14);
-            this.cBMetaphorischeTransition.TabIndex = 46;
-            this.cBMetaphorischeTransition.UseVisualStyleBackColor = true;
-            // 
-            // cBKombination
-            // 
-            this.cBKombination.AutoSize = true;
-            this.cBKombination.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cBKombination.Location = new System.Drawing.Point(3, 462);
-            this.cBKombination.Name = "cBKombination";
-            this.cBKombination.Size = new System.Drawing.Size(15, 14);
-            this.cBKombination.TabIndex = 47;
-            this.cBKombination.UseVisualStyleBackColor = true;
-            // 
-            // cBReversalis
-            // 
-            this.cBReversalis.AutoSize = true;
-            this.cBReversalis.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cBReversalis.Location = new System.Drawing.Point(3, 504);
-            this.cBReversalis.Name = "cBReversalis";
-            this.cBReversalis.Size = new System.Drawing.Size(15, 14);
-            this.cBReversalis.TabIndex = 48;
-            this.cBReversalis.UseVisualStyleBackColor = true;
-            // 
-            // cBSynthese
-            // 
-            this.cBSynthese.AutoSize = true;
-            this.cBSynthese.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cBSynthese.Location = new System.Drawing.Point(3, 545);
-            this.cBSynthese.Name = "cBSynthese";
-            this.cBSynthese.Size = new System.Drawing.Size(15, 14);
-            this.cBSynthese.TabIndex = 49;
-            this.cBSynthese.UseVisualStyleBackColor = true;
-            // 
-            // cBErweiterungZieleF
-            // 
-            this.cBErweiterungZieleF.AutoSize = true;
-            this.cBErweiterungZieleF.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cBErweiterungZieleF.Location = new System.Drawing.Point(3, 243);
-            this.cBErweiterungZieleF.Name = "cBErweiterungZieleF";
-            this.cBErweiterungZieleF.Size = new System.Drawing.Size(15, 14);
-            this.cBErweiterungZieleF.TabIndex = 50;
-            this.cBErweiterungZieleF.UseVisualStyleBackColor = true;
-            // 
-            // cbErweiterungZieleS
-            // 
-            this.cbErweiterungZieleS.AutoSize = true;
-            this.cbErweiterungZieleS.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbErweiterungZieleS.Location = new System.Drawing.Point(3, 285);
-            this.cbErweiterungZieleS.Name = "cbErweiterungZieleS";
-            this.cbErweiterungZieleS.Size = new System.Drawing.Size(15, 14);
-            this.cbErweiterungZieleS.TabIndex = 51;
-            this.cbErweiterungZieleS.UseVisualStyleBackColor = true;
-            // 
             // lASPAenderung
             // 
             this.lASPAenderung.AutoSize = true;
@@ -581,6 +471,21 @@
             // 
             // gBGrosseModifikationen
             // 
+            this.gBGrosseModifikationen.Controls.Add(this.modKomboGegenElement);
+            this.gBGrosseModifikationen.Controls.Add(this.modMetaphorischnichtNah);
+            this.gBGrosseModifikationen.Controls.Add(this.modFreierWirkungsbereich);
+            this.gBGrosseModifikationen.Controls.Add(this.modWirkungsbereichAendern);
+            this.gBGrosseModifikationen.Controls.Add(this.modKomboRepraesentationen);
+            this.gBGrosseModifikationen.Controls.Add(this.modRepraesentation);
+            this.gBGrosseModifikationen.Controls.Add(this.modSynthese);
+            this.gBGrosseModifikationen.Controls.Add(this.modReversalis);
+            this.gBGrosseModifikationen.Controls.Add(this.modKombination);
+            this.gBGrosseModifikationen.Controls.Add(this.modMetaphorischeTransition);
+            this.gBGrosseModifikationen.Controls.Add(this.modDämonischeTransition);
+            this.gBGrosseModifikationen.Controls.Add(this.modElementareTransitionGegenelement);
+            this.gBGrosseModifikationen.Controls.Add(this.modElementareTransition);
+            this.gBGrosseModifikationen.Controls.Add(this.modErweiterungSelbst);
+            this.gBGrosseModifikationen.Controls.Add(this.modErweitrungFreiwillig);
             this.gBGrosseModifikationen.Controls.Add(this.modDaemonischElementar);
             this.gBGrosseModifikationen.Controls.Add(this.modGegensaetzlicheMerkmale);
             this.gBGrosseModifikationen.Controls.Add(this.modMerkmalenureinmal);
@@ -589,27 +494,257 @@
             this.gBGrosseModifikationen.Controls.Add(this.modDauerMinimieren);
             this.gBGrosseModifikationen.Controls.Add(this.richTextBox2);
             this.gBGrosseModifikationen.Controls.Add(this.label7);
-            this.gBGrosseModifikationen.Controls.Add(this.cBWirkungsbereichAendern);
-            this.gBGrosseModifikationen.Controls.Add(this.cBWirkungsbereichFrei);
-            this.gBGrosseModifikationen.Controls.Add(this.cBElementareTransition);
-            this.gBGrosseModifikationen.Controls.Add(this.cBGegenelement);
-            this.gBGrosseModifikationen.Controls.Add(this.cBUebertragungRepresentation);
-            this.gBGrosseModifikationen.Controls.Add(this.cBKomboRepraesentation);
-            this.gBGrosseModifikationen.Controls.Add(this.cBDaemonischeTransition);
-            this.gBGrosseModifikationen.Controls.Add(this.cBMetaphorischeTransition);
-            this.gBGrosseModifikationen.Controls.Add(this.cBKombination);
-            this.gBGrosseModifikationen.Controls.Add(this.cbErweiterungZieleS);
-            this.gBGrosseModifikationen.Controls.Add(this.cBReversalis);
-            this.gBGrosseModifikationen.Controls.Add(this.cBErweiterungZieleF);
-            this.gBGrosseModifikationen.Controls.Add(this.cBSynthese);
             this.gBGrosseModifikationen.Location = new System.Drawing.Point(708, 9);
             this.gBGrosseModifikationen.Name = "gBGrosseModifikationen";
             this.gBGrosseModifikationen.Size = new System.Drawing.Size(392, 724);
             this.gBGrosseModifikationen.TabIndex = 61;
             this.gBGrosseModifikationen.TabStop = false;
             // 
+            // modKomboRepraesentationen
+            // 
+            this.modKomboRepraesentationen.BackColor = System.Drawing.SystemColors.Control;
+            this.modKomboRepraesentationen.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.modKomboRepraesentationen.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.modKomboRepraesentationen.Location = new System.Drawing.Point(340, 694);
+            this.modKomboRepraesentationen.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.modKomboRepraesentationen.Maximum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.modKomboRepraesentationen.Name = "modKomboRepraesentationen";
+            this.modKomboRepraesentationen.Size = new System.Drawing.Size(44, 22);
+            this.modKomboRepraesentationen.TabIndex = 94;
+            // 
+            // modRepraesentation
+            // 
+            this.modRepraesentation.BackColor = System.Drawing.SystemColors.Control;
+            this.modRepraesentation.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.modRepraesentation.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.modRepraesentation.Location = new System.Drawing.Point(340, 662);
+            this.modRepraesentation.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.modRepraesentation.Maximum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.modRepraesentation.Name = "modRepraesentation";
+            this.modRepraesentation.Size = new System.Drawing.Size(44, 22);
+            this.modRepraesentation.TabIndex = 93;
+            // 
+            // modSynthese
+            // 
+            this.modSynthese.BackColor = System.Drawing.SystemColors.Control;
+            this.modSynthese.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.modSynthese.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.modSynthese.Location = new System.Drawing.Point(134, 541);
+            this.modSynthese.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.modSynthese.Maximum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.modSynthese.Name = "modSynthese";
+            this.modSynthese.Size = new System.Drawing.Size(44, 22);
+            this.modSynthese.TabIndex = 92;
+            // 
+            // modReversalis
+            // 
+            this.modReversalis.BackColor = System.Drawing.SystemColors.Control;
+            this.modReversalis.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.modReversalis.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.modReversalis.Location = new System.Drawing.Point(278, 500);
+            this.modReversalis.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.modReversalis.Maximum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.modReversalis.Name = "modReversalis";
+            this.modReversalis.Size = new System.Drawing.Size(44, 22);
+            this.modReversalis.TabIndex = 91;
+            // 
+            // modKombination
+            // 
+            this.modKombination.BackColor = System.Drawing.SystemColors.Control;
+            this.modKombination.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.modKombination.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.modKombination.Location = new System.Drawing.Point(134, 462);
+            this.modKombination.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.modKombination.Maximum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.modKombination.Name = "modKombination";
+            this.modKombination.Size = new System.Drawing.Size(44, 22);
+            this.modKombination.TabIndex = 90;
+            // 
+            // modMetaphorischeTransition
+            // 
+            this.modMetaphorischeTransition.BackColor = System.Drawing.SystemColors.Control;
+            this.modMetaphorischeTransition.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.modMetaphorischeTransition.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.modMetaphorischeTransition.Location = new System.Drawing.Point(343, 419);
+            this.modMetaphorischeTransition.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.modMetaphorischeTransition.Maximum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.modMetaphorischeTransition.Name = "modMetaphorischeTransition";
+            this.modMetaphorischeTransition.Size = new System.Drawing.Size(44, 22);
+            this.modMetaphorischeTransition.TabIndex = 89;
+            // 
+            // modDämonischeTransition
+            // 
+            this.modDämonischeTransition.BackColor = System.Drawing.SystemColors.Control;
+            this.modDämonischeTransition.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.modDämonischeTransition.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.modDämonischeTransition.Location = new System.Drawing.Point(213, 381);
+            this.modDämonischeTransition.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.modDämonischeTransition.Maximum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.modDämonischeTransition.Name = "modDämonischeTransition";
+            this.modDämonischeTransition.Size = new System.Drawing.Size(44, 22);
+            this.modDämonischeTransition.TabIndex = 88;
+            // 
+            // modElementareTransitionGegenelement
+            // 
+            this.modElementareTransitionGegenelement.BackColor = System.Drawing.SystemColors.Control;
+            this.modElementareTransitionGegenelement.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.modElementareTransitionGegenelement.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.modElementareTransitionGegenelement.Location = new System.Drawing.Point(340, 339);
+            this.modElementareTransitionGegenelement.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.modElementareTransitionGegenelement.Maximum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.modElementareTransitionGegenelement.Name = "modElementareTransitionGegenelement";
+            this.modElementareTransitionGegenelement.Size = new System.Drawing.Size(44, 22);
+            this.modElementareTransitionGegenelement.TabIndex = 87;
+            // 
+            // modElementareTransition
+            // 
+            this.modElementareTransition.BackColor = System.Drawing.SystemColors.Control;
+            this.modElementareTransition.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.modElementareTransition.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.modElementareTransition.Location = new System.Drawing.Point(213, 318);
+            this.modElementareTransition.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.modElementareTransition.Maximum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.modElementareTransition.Name = "modElementareTransition";
+            this.modElementareTransition.Size = new System.Drawing.Size(44, 22);
+            this.modElementareTransition.TabIndex = 86;
+            // 
+            // modErweiterungSelbst
+            // 
+            this.modErweiterungSelbst.BackColor = System.Drawing.SystemColors.Control;
+            this.modErweiterungSelbst.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.modErweiterungSelbst.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.modErweiterungSelbst.Location = new System.Drawing.Point(278, 285);
+            this.modErweiterungSelbst.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.modErweiterungSelbst.Maximum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.modErweiterungSelbst.Name = "modErweiterungSelbst";
+            this.modErweiterungSelbst.Size = new System.Drawing.Size(44, 22);
+            this.modErweiterungSelbst.TabIndex = 85;
+            // 
+            // modErweitrungFreiwillig
+            // 
+            this.modErweitrungFreiwillig.BackColor = System.Drawing.SystemColors.Control;
+            this.modErweitrungFreiwillig.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.modErweitrungFreiwillig.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.modErweitrungFreiwillig.Location = new System.Drawing.Point(291, 239);
+            this.modErweitrungFreiwillig.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.modErweitrungFreiwillig.Maximum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.modErweitrungFreiwillig.Name = "modErweitrungFreiwillig";
+            this.modErweitrungFreiwillig.Size = new System.Drawing.Size(44, 22);
+            this.modErweitrungFreiwillig.TabIndex = 81;
+            // 
+            // modDaemonischElementar
+            // 
+            this.modDaemonischElementar.BackColor = System.Drawing.SystemColors.Control;
+            this.modDaemonischElementar.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.modDaemonischElementar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.modDaemonischElementar.Location = new System.Drawing.Point(341, 621);
+            this.modDaemonischElementar.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.modDaemonischElementar.Name = "modDaemonischElementar";
+            this.modDaemonischElementar.Size = new System.Drawing.Size(44, 22);
+            this.modDaemonischElementar.TabIndex = 84;
+            // 
+            // modGegensaetzlicheMerkmale
+            // 
+            this.modGegensaetzlicheMerkmale.BackColor = System.Drawing.SystemColors.Control;
+            this.modGegensaetzlicheMerkmale.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.modGegensaetzlicheMerkmale.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.modGegensaetzlicheMerkmale.Location = new System.Drawing.Point(341, 593);
+            this.modGegensaetzlicheMerkmale.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.modGegensaetzlicheMerkmale.Name = "modGegensaetzlicheMerkmale";
+            this.modGegensaetzlicheMerkmale.Size = new System.Drawing.Size(44, 22);
+            this.modGegensaetzlicheMerkmale.TabIndex = 83;
+            // 
+            // modMerkmalenureinmal
+            // 
+            this.modMerkmalenureinmal.BackColor = System.Drawing.SystemColors.Control;
+            this.modMerkmalenureinmal.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.modMerkmalenureinmal.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.modMerkmalenureinmal.Location = new System.Drawing.Point(341, 558);
+            this.modMerkmalenureinmal.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.modMerkmalenureinmal.Name = "modMerkmalenureinmal";
+            this.modMerkmalenureinmal.Size = new System.Drawing.Size(44, 22);
+            this.modMerkmalenureinmal.TabIndex = 82;
+            // 
+            // modPotenzieren
+            // 
+            this.modPotenzieren.BackColor = System.Drawing.SystemColors.Control;
+            this.modPotenzieren.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.modPotenzieren.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.modPotenzieren.Location = new System.Drawing.Point(267, 197);
+            this.modPotenzieren.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.modPotenzieren.Name = "modPotenzieren";
+            this.modPotenzieren.Size = new System.Drawing.Size(44, 22);
+            this.modPotenzieren.TabIndex = 81;
+            // 
+            // modAspOptimieren
+            // 
+            this.modAspOptimieren.BackColor = System.Drawing.SystemColors.Control;
+            this.modAspOptimieren.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.modAspOptimieren.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.modAspOptimieren.Location = new System.Drawing.Point(267, 157);
+            this.modAspOptimieren.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.modAspOptimieren.Name = "modAspOptimieren";
+            this.modAspOptimieren.Size = new System.Drawing.Size(44, 22);
+            this.modAspOptimieren.TabIndex = 80;
+            // 
+            // modDauerMinimieren
+            // 
+            this.modDauerMinimieren.BackColor = System.Drawing.SystemColors.Control;
+            this.modDauerMinimieren.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.modDauerMinimieren.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.modDauerMinimieren.Location = new System.Drawing.Point(267, 119);
+            this.modDauerMinimieren.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.modDauerMinimieren.Name = "modDauerMinimieren";
+            this.modDauerMinimieren.Size = new System.Drawing.Size(44, 22);
+            this.modDauerMinimieren.TabIndex = 79;
+            // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.modFesteWirkungsdauer);
             this.groupBox1.Controls.Add(this.modMehrLeute);
             this.groupBox1.Controls.Add(this.modWeitere);
             this.groupBox1.Controls.Add(this.modWirkungsdauer05X);
@@ -635,85 +770,98 @@
             this.groupBox1.TabIndex = 62;
             this.groupBox1.TabStop = false;
             // 
-            // modTechnickAendern
+            // modFesteWirkungsdauer
             // 
-            this.modTechnickAendern.BackColor = System.Drawing.SystemColors.Control;
-            this.modTechnickAendern.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.modTechnickAendern.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.modTechnickAendern.Location = new System.Drawing.Point(288, 53);
-            this.modTechnickAendern.Name = "modTechnickAendern";
-            this.modTechnickAendern.Size = new System.Drawing.Size(44, 22);
-            this.modTechnickAendern.TabIndex = 63;
+            this.modFesteWirkungsdauer.BackColor = System.Drawing.SystemColors.Control;
+            this.modFesteWirkungsdauer.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.modFesteWirkungsdauer.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.modFesteWirkungsdauer.Location = new System.Drawing.Point(221, 497);
+            this.modFesteWirkungsdauer.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.modFesteWirkungsdauer.Maximum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.modFesteWirkungsdauer.Name = "modFesteWirkungsdauer";
+            this.modFesteWirkungsdauer.Size = new System.Drawing.Size(44, 22);
+            this.modFesteWirkungsdauer.TabIndex = 80;
             // 
-            // modTechnickWeg
+            // modMehrLeute
             // 
-            this.modTechnickWeg.BackColor = System.Drawing.SystemColors.Control;
-            this.modTechnickWeg.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.modTechnickWeg.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.modTechnickWeg.Location = new System.Drawing.Point(288, 72);
-            this.modTechnickWeg.Name = "modTechnickWeg";
-            this.modTechnickWeg.Size = new System.Drawing.Size(44, 22);
-            this.modTechnickWeg.TabIndex = 64;
+            this.modMehrLeute.BackColor = System.Drawing.SystemColors.Control;
+            this.modMehrLeute.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.modMehrLeute.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.modMehrLeute.Location = new System.Drawing.Point(173, 578);
+            this.modMehrLeute.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.modMehrLeute.Name = "modMehrLeute";
+            this.modMehrLeute.Size = new System.Drawing.Size(44, 22);
+            this.modMehrLeute.TabIndex = 79;
             // 
-            // modZentTechnickAendern
+            // modWeitere
             // 
-            this.modZentTechnickAendern.BackColor = System.Drawing.SystemColors.Control;
-            this.modZentTechnickAendern.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.modZentTechnickAendern.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.modZentTechnickAendern.Location = new System.Drawing.Point(288, 90);
-            this.modZentTechnickAendern.Name = "modZentTechnickAendern";
-            this.modZentTechnickAendern.Size = new System.Drawing.Size(44, 22);
-            this.modZentTechnickAendern.TabIndex = 65;
+            this.modWeitere.BackColor = System.Drawing.SystemColors.Control;
+            this.modWeitere.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.modWeitere.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.modWeitere.Location = new System.Drawing.Point(221, 618);
+            this.modWeitere.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.modWeitere.Name = "modWeitere";
+            this.modWeitere.Size = new System.Drawing.Size(44, 22);
+            this.modWeitere.TabIndex = 78;
             // 
-            // modZentTechnickWeg
+            // modWirkungsdauer05X
             // 
-            this.modZentTechnickWeg.BackColor = System.Drawing.SystemColors.Control;
-            this.modZentTechnickWeg.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.modZentTechnickWeg.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.modZentTechnickWeg.Location = new System.Drawing.Point(288, 109);
-            this.modZentTechnickWeg.Name = "modZentTechnickWeg";
-            this.modZentTechnickWeg.Size = new System.Drawing.Size(44, 22);
-            this.modZentTechnickWeg.TabIndex = 66;
+            this.modWirkungsdauer05X.BackColor = System.Drawing.SystemColors.Control;
+            this.modWirkungsdauer05X.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.modWirkungsdauer05X.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.modWirkungsdauer05X.Location = new System.Drawing.Point(303, 538);
+            this.modWirkungsdauer05X.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.modWirkungsdauer05X.Name = "modWirkungsdauer05X";
+            this.modWirkungsdauer05X.Size = new System.Drawing.Size(44, 22);
+            this.modWirkungsdauer05X.TabIndex = 77;
             // 
-            // modTechnickVerfeinern
+            // modWirkungsdauer2x
             // 
-            this.modTechnickVerfeinern.BackColor = System.Drawing.SystemColors.Control;
-            this.modTechnickVerfeinern.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.modTechnickVerfeinern.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.modTechnickVerfeinern.Location = new System.Drawing.Point(192, 138);
-            this.modTechnickVerfeinern.Name = "modTechnickVerfeinern";
-            this.modTechnickVerfeinern.Size = new System.Drawing.Size(44, 22);
-            this.modTechnickVerfeinern.TabIndex = 67;
+            this.modWirkungsdauer2x.BackColor = System.Drawing.SystemColors.Control;
+            this.modWirkungsdauer2x.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.modWirkungsdauer2x.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.modWirkungsdauer2x.Location = new System.Drawing.Point(303, 459);
+            this.modWirkungsdauer2x.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.modWirkungsdauer2x.Name = "modWirkungsdauer2x";
+            this.modWirkungsdauer2x.Size = new System.Drawing.Size(44, 22);
+            this.modWirkungsdauer2x.TabIndex = 75;
             // 
-            // modZauberdauerVerlängern
+            // modReichweiteVerkleinern
             // 
-            this.modZauberdauerVerlängern.BackColor = System.Drawing.SystemColors.Control;
-            this.modZauberdauerVerlängern.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.modZauberdauerVerlängern.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.modZauberdauerVerlängern.Location = new System.Drawing.Point(239, 177);
-            this.modZauberdauerVerlängern.Name = "modZauberdauerVerlängern";
-            this.modZauberdauerVerlängern.Size = new System.Drawing.Size(44, 22);
-            this.modZauberdauerVerlängern.TabIndex = 68;
+            this.modReichweiteVerkleinern.BackColor = System.Drawing.SystemColors.Control;
+            this.modReichweiteVerkleinern.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.modReichweiteVerkleinern.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.modReichweiteVerkleinern.Location = new System.Drawing.Point(270, 416);
+            this.modReichweiteVerkleinern.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.modReichweiteVerkleinern.Name = "modReichweiteVerkleinern";
+            this.modReichweiteVerkleinern.Size = new System.Drawing.Size(44, 22);
+            this.modReichweiteVerkleinern.TabIndex = 74;
             // 
-            // modZauberdauerVerkuerzen
+            // modReichweiteVergroessern
             // 
-            this.modZauberdauerVerkuerzen.BackColor = System.Drawing.SystemColors.Control;
-            this.modZauberdauerVerkuerzen.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.modZauberdauerVerkuerzen.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.modZauberdauerVerkuerzen.Location = new System.Drawing.Point(221, 216);
-            this.modZauberdauerVerkuerzen.Name = "modZauberdauerVerkuerzen";
-            this.modZauberdauerVerkuerzen.Size = new System.Drawing.Size(44, 22);
-            this.modZauberdauerVerkuerzen.TabIndex = 69;
+            this.modReichweiteVergroessern.BackColor = System.Drawing.SystemColors.Control;
+            this.modReichweiteVergroessern.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.modReichweiteVergroessern.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.modReichweiteVergroessern.Location = new System.Drawing.Point(270, 378);
+            this.modReichweiteVergroessern.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.modReichweiteVergroessern.Name = "modReichweiteVergroessern";
+            this.modReichweiteVergroessern.Size = new System.Drawing.Size(44, 22);
+            this.modReichweiteVergroessern.TabIndex = 73;
             // 
-            // modErzwingen
+            // modaufFreiwilligeEinzelperson
             // 
-            this.modErzwingen.BackColor = System.Drawing.SystemColors.Control;
-            this.modErzwingen.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.modErzwingen.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.modErzwingen.Location = new System.Drawing.Point(239, 257);
-            this.modErzwingen.Name = "modErzwingen";
-            this.modErzwingen.Size = new System.Drawing.Size(44, 22);
-            this.modErzwingen.TabIndex = 70;
+            this.modaufFreiwilligeEinzelperson.BackColor = System.Drawing.SystemColors.Control;
+            this.modaufFreiwilligeEinzelperson.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.modaufFreiwilligeEinzelperson.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.modaufFreiwilligeEinzelperson.Location = new System.Drawing.Point(315, 336);
+            this.modaufFreiwilligeEinzelperson.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.modaufFreiwilligeEinzelperson.Name = "modaufFreiwilligeEinzelperson";
+            this.modaufFreiwilligeEinzelperson.Size = new System.Drawing.Size(44, 22);
+            this.modaufFreiwilligeEinzelperson.TabIndex = 72;
             // 
             // modAspSparen
             // 
@@ -721,6 +869,7 @@
             this.modAspSparen.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.modAspSparen.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.modAspSparen.Location = new System.Drawing.Point(221, 298);
+            this.modAspSparen.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.modAspSparen.Maximum = new decimal(new int[] {
             5,
             0,
@@ -730,135 +879,147 @@
             this.modAspSparen.Size = new System.Drawing.Size(44, 22);
             this.modAspSparen.TabIndex = 71;
             // 
-            // modaufFreiwilligeEinzelperson
+            // modErzwingen
             // 
-            this.modaufFreiwilligeEinzelperson.BackColor = System.Drawing.SystemColors.Control;
-            this.modaufFreiwilligeEinzelperson.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.modaufFreiwilligeEinzelperson.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.modaufFreiwilligeEinzelperson.Location = new System.Drawing.Point(315, 336);
-            this.modaufFreiwilligeEinzelperson.Name = "modaufFreiwilligeEinzelperson";
-            this.modaufFreiwilligeEinzelperson.Size = new System.Drawing.Size(44, 22);
-            this.modaufFreiwilligeEinzelperson.TabIndex = 72;
+            this.modErzwingen.BackColor = System.Drawing.SystemColors.Control;
+            this.modErzwingen.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.modErzwingen.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.modErzwingen.Location = new System.Drawing.Point(239, 257);
+            this.modErzwingen.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.modErzwingen.Name = "modErzwingen";
+            this.modErzwingen.Size = new System.Drawing.Size(44, 22);
+            this.modErzwingen.TabIndex = 70;
             // 
-            // modReichweiteVergroessern
+            // modZauberdauerVerkuerzen
             // 
-            this.modReichweiteVergroessern.BackColor = System.Drawing.SystemColors.Control;
-            this.modReichweiteVergroessern.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.modReichweiteVergroessern.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.modReichweiteVergroessern.Location = new System.Drawing.Point(270, 378);
-            this.modReichweiteVergroessern.Name = "modReichweiteVergroessern";
-            this.modReichweiteVergroessern.Size = new System.Drawing.Size(44, 22);
-            this.modReichweiteVergroessern.TabIndex = 73;
+            this.modZauberdauerVerkuerzen.BackColor = System.Drawing.SystemColors.Control;
+            this.modZauberdauerVerkuerzen.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.modZauberdauerVerkuerzen.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.modZauberdauerVerkuerzen.Location = new System.Drawing.Point(221, 216);
+            this.modZauberdauerVerkuerzen.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.modZauberdauerVerkuerzen.Name = "modZauberdauerVerkuerzen";
+            this.modZauberdauerVerkuerzen.Size = new System.Drawing.Size(44, 22);
+            this.modZauberdauerVerkuerzen.TabIndex = 69;
             // 
-            // modReichweiteVerkleinern
+            // modZauberdauerVerlängern
             // 
-            this.modReichweiteVerkleinern.BackColor = System.Drawing.SystemColors.Control;
-            this.modReichweiteVerkleinern.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.modReichweiteVerkleinern.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.modReichweiteVerkleinern.Location = new System.Drawing.Point(270, 416);
-            this.modReichweiteVerkleinern.Name = "modReichweiteVerkleinern";
-            this.modReichweiteVerkleinern.Size = new System.Drawing.Size(44, 22);
-            this.modReichweiteVerkleinern.TabIndex = 74;
+            this.modZauberdauerVerlängern.BackColor = System.Drawing.SystemColors.Control;
+            this.modZauberdauerVerlängern.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.modZauberdauerVerlängern.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.modZauberdauerVerlängern.Location = new System.Drawing.Point(239, 177);
+            this.modZauberdauerVerlängern.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.modZauberdauerVerlängern.Name = "modZauberdauerVerlängern";
+            this.modZauberdauerVerlängern.Size = new System.Drawing.Size(44, 22);
+            this.modZauberdauerVerlängern.TabIndex = 68;
             // 
-            // modWirkungsdauer2x
+            // modTechnickVerfeinern
             // 
-            this.modWirkungsdauer2x.BackColor = System.Drawing.SystemColors.Control;
-            this.modWirkungsdauer2x.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.modWirkungsdauer2x.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.modWirkungsdauer2x.Location = new System.Drawing.Point(303, 459);
-            this.modWirkungsdauer2x.Name = "modWirkungsdauer2x";
-            this.modWirkungsdauer2x.Size = new System.Drawing.Size(44, 22);
-            this.modWirkungsdauer2x.TabIndex = 75;
+            this.modTechnickVerfeinern.BackColor = System.Drawing.SystemColors.Control;
+            this.modTechnickVerfeinern.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.modTechnickVerfeinern.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.modTechnickVerfeinern.Location = new System.Drawing.Point(192, 138);
+            this.modTechnickVerfeinern.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.modTechnickVerfeinern.Name = "modTechnickVerfeinern";
+            this.modTechnickVerfeinern.Size = new System.Drawing.Size(44, 22);
+            this.modTechnickVerfeinern.TabIndex = 67;
             // 
-            // modWirkungsdauer05X
+            // modZentTechnickWeg
             // 
-            this.modWirkungsdauer05X.BackColor = System.Drawing.SystemColors.Control;
-            this.modWirkungsdauer05X.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.modWirkungsdauer05X.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.modWirkungsdauer05X.Location = new System.Drawing.Point(303, 538);
-            this.modWirkungsdauer05X.Name = "modWirkungsdauer05X";
-            this.modWirkungsdauer05X.Size = new System.Drawing.Size(44, 22);
-            this.modWirkungsdauer05X.TabIndex = 77;
+            this.modZentTechnickWeg.BackColor = System.Drawing.SystemColors.Control;
+            this.modZentTechnickWeg.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.modZentTechnickWeg.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.modZentTechnickWeg.Location = new System.Drawing.Point(288, 109);
+            this.modZentTechnickWeg.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.modZentTechnickWeg.Name = "modZentTechnickWeg";
+            this.modZentTechnickWeg.Size = new System.Drawing.Size(44, 22);
+            this.modZentTechnickWeg.TabIndex = 66;
             // 
-            // modWeitere
+            // modZentTechnickAendern
             // 
-            this.modWeitere.BackColor = System.Drawing.SystemColors.Control;
-            this.modWeitere.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.modWeitere.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.modWeitere.Location = new System.Drawing.Point(221, 618);
-            this.modWeitere.Name = "modWeitere";
-            this.modWeitere.Size = new System.Drawing.Size(44, 22);
-            this.modWeitere.TabIndex = 78;
+            this.modZentTechnickAendern.BackColor = System.Drawing.SystemColors.Control;
+            this.modZentTechnickAendern.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.modZentTechnickAendern.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.modZentTechnickAendern.Location = new System.Drawing.Point(288, 90);
+            this.modZentTechnickAendern.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.modZentTechnickAendern.Name = "modZentTechnickAendern";
+            this.modZentTechnickAendern.Size = new System.Drawing.Size(44, 22);
+            this.modZentTechnickAendern.TabIndex = 65;
             // 
-            // modDauerMinimieren
+            // modTechnickWeg
             // 
-            this.modDauerMinimieren.BackColor = System.Drawing.SystemColors.Control;
-            this.modDauerMinimieren.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.modDauerMinimieren.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.modDauerMinimieren.Location = new System.Drawing.Point(267, 119);
-            this.modDauerMinimieren.Name = "modDauerMinimieren";
-            this.modDauerMinimieren.Size = new System.Drawing.Size(44, 22);
-            this.modDauerMinimieren.TabIndex = 79;
+            this.modTechnickWeg.BackColor = System.Drawing.SystemColors.Control;
+            this.modTechnickWeg.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.modTechnickWeg.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.modTechnickWeg.Location = new System.Drawing.Point(288, 72);
+            this.modTechnickWeg.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.modTechnickWeg.Name = "modTechnickWeg";
+            this.modTechnickWeg.Size = new System.Drawing.Size(44, 22);
+            this.modTechnickWeg.TabIndex = 64;
             // 
-            // modAspOptimieren
+            // modTechnickAendern
             // 
-            this.modAspOptimieren.BackColor = System.Drawing.SystemColors.Control;
-            this.modAspOptimieren.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.modAspOptimieren.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.modAspOptimieren.Location = new System.Drawing.Point(267, 157);
-            this.modAspOptimieren.Name = "modAspOptimieren";
-            this.modAspOptimieren.Size = new System.Drawing.Size(44, 22);
-            this.modAspOptimieren.TabIndex = 80;
+            this.modTechnickAendern.BackColor = System.Drawing.SystemColors.Control;
+            this.modTechnickAendern.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.modTechnickAendern.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.modTechnickAendern.Location = new System.Drawing.Point(288, 53);
+            this.modTechnickAendern.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.modTechnickAendern.Name = "modTechnickAendern";
+            this.modTechnickAendern.Size = new System.Drawing.Size(44, 22);
+            this.modTechnickAendern.TabIndex = 63;
             // 
-            // modPotenzieren
+            // modWirkungsbereichAendern
             // 
-            this.modPotenzieren.BackColor = System.Drawing.SystemColors.Control;
-            this.modPotenzieren.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.modPotenzieren.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.modPotenzieren.Location = new System.Drawing.Point(267, 197);
-            this.modPotenzieren.Name = "modPotenzieren";
-            this.modPotenzieren.Size = new System.Drawing.Size(44, 22);
-            this.modPotenzieren.TabIndex = 81;
+            this.modWirkungsbereichAendern.BackColor = System.Drawing.SystemColors.Control;
+            this.modWirkungsbereichAendern.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.modWirkungsbereichAendern.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.modWirkungsbereichAendern.Location = new System.Drawing.Point(319, 56);
+            this.modWirkungsbereichAendern.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.modWirkungsbereichAendern.Name = "modWirkungsbereichAendern";
+            this.modWirkungsbereichAendern.Size = new System.Drawing.Size(44, 22);
+            this.modWirkungsbereichAendern.TabIndex = 95;
             // 
-            // modMerkmalenureinmal
+            // modFreierWirkungsbereich
             // 
-            this.modMerkmalenureinmal.BackColor = System.Drawing.SystemColors.Control;
-            this.modMerkmalenureinmal.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.modMerkmalenureinmal.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.modMerkmalenureinmal.Location = new System.Drawing.Point(341, 558);
-            this.modMerkmalenureinmal.Name = "modMerkmalenureinmal";
-            this.modMerkmalenureinmal.Size = new System.Drawing.Size(44, 22);
-            this.modMerkmalenureinmal.TabIndex = 82;
+            this.modFreierWirkungsbereich.BackColor = System.Drawing.SystemColors.Control;
+            this.modFreierWirkungsbereich.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.modFreierWirkungsbereich.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.modFreierWirkungsbereich.Location = new System.Drawing.Point(319, 75);
+            this.modFreierWirkungsbereich.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.modFreierWirkungsbereich.Name = "modFreierWirkungsbereich";
+            this.modFreierWirkungsbereich.Size = new System.Drawing.Size(44, 22);
+            this.modFreierWirkungsbereich.TabIndex = 96;
             // 
-            // modGegensaetzlicheMerkmale
+            // modMetaphorischnichtNah
             // 
-            this.modGegensaetzlicheMerkmale.BackColor = System.Drawing.SystemColors.Control;
-            this.modGegensaetzlicheMerkmale.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.modGegensaetzlicheMerkmale.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.modGegensaetzlicheMerkmale.Location = new System.Drawing.Point(341, 593);
-            this.modGegensaetzlicheMerkmale.Name = "modGegensaetzlicheMerkmale";
-            this.modGegensaetzlicheMerkmale.Size = new System.Drawing.Size(44, 22);
-            this.modGegensaetzlicheMerkmale.TabIndex = 83;
+            this.modMetaphorischnichtNah.BackColor = System.Drawing.SystemColors.Control;
+            this.modMetaphorischnichtNah.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.modMetaphorischnichtNah.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.modMetaphorischnichtNah.Location = new System.Drawing.Point(343, 436);
+            this.modMetaphorischnichtNah.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.modMetaphorischnichtNah.Maximum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.modMetaphorischnichtNah.Name = "modMetaphorischnichtNah";
+            this.modMetaphorischnichtNah.Size = new System.Drawing.Size(44, 22);
+            this.modMetaphorischnichtNah.TabIndex = 97;
             // 
-            // modDaemonischElementar
+            // modKomboGegenElement
             // 
-            this.modDaemonischElementar.BackColor = System.Drawing.SystemColors.Control;
-            this.modDaemonischElementar.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.modDaemonischElementar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.modDaemonischElementar.Location = new System.Drawing.Point(341, 621);
-            this.modDaemonischElementar.Name = "modDaemonischElementar";
-            this.modDaemonischElementar.Size = new System.Drawing.Size(44, 22);
-            this.modDaemonischElementar.TabIndex = 84;
-            // 
-            // modMehrLeute
-            // 
-            this.modMehrLeute.BackColor = System.Drawing.SystemColors.Control;
-            this.modMehrLeute.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.modMehrLeute.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.modMehrLeute.Location = new System.Drawing.Point(173, 578);
-            this.modMehrLeute.Name = "modMehrLeute";
-            this.modMehrLeute.Size = new System.Drawing.Size(44, 22);
-            this.modMehrLeute.TabIndex = 79;
+            this.modKomboGegenElement.BackColor = System.Drawing.SystemColors.Control;
+            this.modKomboGegenElement.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.modKomboGegenElement.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.modKomboGegenElement.Location = new System.Drawing.Point(278, 479);
+            this.modKomboGegenElement.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.modKomboGegenElement.Maximum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.modKomboGegenElement.Name = "modKomboGegenElement";
+            this.modKomboGegenElement.Size = new System.Drawing.Size(44, 22);
+            this.modKomboGegenElement.TabIndex = 98;
             // 
             // ZauberWerkstatt
             // 
@@ -900,30 +1061,46 @@
             ((System.ComponentModel.ISupportInitialize)(this.nUDAnzahl)).EndInit();
             this.gBGrosseModifikationen.ResumeLayout(false);
             this.gBGrosseModifikationen.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.modKomboRepraesentationen)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.modRepraesentation)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.modSynthese)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.modReversalis)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.modKombination)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.modMetaphorischeTransition)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.modDämonischeTransition)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.modElementareTransitionGegenelement)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.modElementareTransition)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.modErweiterungSelbst)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.modErweitrungFreiwillig)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.modDaemonischElementar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.modGegensaetzlicheMerkmale)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.modMerkmalenureinmal)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.modPotenzieren)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.modAspOptimieren)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.modDauerMinimieren)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.modTechnickAendern)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.modTechnickWeg)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.modZentTechnickAendern)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.modZentTechnickWeg)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.modTechnickVerfeinern)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.modZauberdauerVerlängern)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.modZauberdauerVerkuerzen)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.modErzwingen)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.modAspSparen)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.modaufFreiwilligeEinzelperson)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.modReichweiteVergroessern)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.modReichweiteVerkleinern)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.modWirkungsdauer2x)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.modWirkungsdauer05X)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.modWeitere)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.modDauerMinimieren)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.modAspOptimieren)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.modPotenzieren)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.modMerkmalenureinmal)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.modGegensaetzlicheMerkmale)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.modDaemonischElementar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.modFesteWirkungsdauer)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.modMehrLeute)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.modWeitere)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.modWirkungsdauer05X)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.modWirkungsdauer2x)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.modReichweiteVerkleinern)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.modReichweiteVergroessern)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.modaufFreiwilligeEinzelperson)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.modAspSparen)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.modErzwingen)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.modZauberdauerVerkuerzen)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.modZauberdauerVerlängern)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.modTechnickVerfeinern)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.modZentTechnickWeg)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.modZentTechnickAendern)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.modTechnickWeg)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.modTechnickAendern)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.modWirkungsbereichAendern)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.modFreierWirkungsbereich)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.modMetaphorischnichtNah)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.modKomboGegenElement)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -952,19 +1129,6 @@
         private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.RichTextBox richTextBox2;
-        private System.Windows.Forms.CheckBox cBWirkungsbereichAendern;
-        private System.Windows.Forms.CheckBox cBWirkungsbereichFrei;
-        private System.Windows.Forms.CheckBox cBElementareTransition;
-        private System.Windows.Forms.CheckBox cBGegenelement;
-        private System.Windows.Forms.CheckBox cBUebertragungRepresentation;
-        private System.Windows.Forms.CheckBox cBKomboRepraesentation;
-        private System.Windows.Forms.CheckBox cBDaemonischeTransition;
-        private System.Windows.Forms.CheckBox cBMetaphorischeTransition;
-        private System.Windows.Forms.CheckBox cBKombination;
-        private System.Windows.Forms.CheckBox cBReversalis;
-        private System.Windows.Forms.CheckBox cBSynthese;
-        private System.Windows.Forms.CheckBox cBErweiterungZieleF;
-        private System.Windows.Forms.CheckBox cbErweiterungZieleS;
         private System.Windows.Forms.Label lASPAenderung;
         private System.Windows.Forms.Label lZauberdauerAenderung;
         private System.Windows.Forms.Button bBerechnen;
@@ -992,5 +1156,21 @@
         private ZWNummericUpDown modTechnickWeg;
         private ZWNummericUpDown modTechnickAendern;
         private ZWNummericUpDown modMehrLeute;
+        private ZWNummericUpDown modKomboRepraesentationen;
+        private ZWNummericUpDown modRepraesentation;
+        private ZWNummericUpDown modSynthese;
+        private ZWNummericUpDown modReversalis;
+        private ZWNummericUpDown modKombination;
+        private ZWNummericUpDown modMetaphorischeTransition;
+        private ZWNummericUpDown modDämonischeTransition;
+        private ZWNummericUpDown modElementareTransitionGegenelement;
+        private ZWNummericUpDown modElementareTransition;
+        private ZWNummericUpDown modErweiterungSelbst;
+        private ZWNummericUpDown modErweitrungFreiwillig;
+        private ZWNummericUpDown modFesteWirkungsdauer;
+        private ZWNummericUpDown modFreierWirkungsbereich;
+        private ZWNummericUpDown modWirkungsbereichAendern;
+        private ZWNummericUpDown modMetaphorischnichtNah;
+        private ZWNummericUpDown modKomboGegenElement;
     }
 }

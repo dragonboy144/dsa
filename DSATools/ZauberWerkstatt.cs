@@ -16,9 +16,9 @@ namespace DSATools
         {
             InitializeComponent();
         }
-        
+
         int i;
-        int[] steigerungsFaktor = {1,1,2,3,4,5,8,10,20};
+        int[] steigerungsFaktor = { 1, 1, 2, 3, 4, 5, 8, 10, 20 };
 
         bool grosseModifikation;
         List<CheckBox> großemodifikationen = new List<CheckBox>();
@@ -72,7 +72,7 @@ namespace DSATools
             modZauberdauerVerkuerzen.zuschlag = steigerungsFaktor[lBSpalte.SelectedIndex] + 4;
             modZauberdauerVerkuerzen.standardZuschlag = 4;
             modZauberdauerVerkuerzen.aspAenderung = 0.10;
-            modZauberdauerVerkuerzen.aspAenderungMinAsp= 1;
+            modZauberdauerVerkuerzen.aspAenderungMinAsp = 1;
             //Zauberwirkung erzwingen +8 und je +6
             modErzwingen.zuschlag = 6;
             modErzwingen.standardZuschlag = 8;
@@ -102,11 +102,83 @@ namespace DSATools
             modWirkungsdauer2x.standardZuschlag = 4;
             modWirkungsdauer2x.aspAenderung = 0.20;
             //Feste Wirkungsdauer +14
-
+            modFesteWirkungsdauer.zuschlag = 14;
             //Verringerung der Wirkungsdauer + 4 und je +6
             modWirkungsdauer05X.zuschlag = 6;
             modWirkungsdauer05X.standardZuschlag = 4;
             modWirkungsdauer05X.aspAenderung = -0.10;
+            #endregion
+
+            #region Große Modifikationen
+            //Veränderung des Wirkungsbereichs + 16 + AF
+            modWirkungsbereichAendern.zuschlag = 16 + steigerungsFaktor[lBSpalte.SelectedIndex];
+            //Freier Wirkungsbereich + 24 + AF 
+            modWirkungsbereichAendern.zuschlag = 24 + steigerungsFaktor[lBSpalte.SelectedIndex];
+            //Minimierung der Zauberdauer + 8 und je +(AF + 12)
+            modDauerMinimieren.zuschlag = 12 + steigerungsFaktor[lBSpalte.SelectedIndex];
+            modDauerMinimieren.zauberDauerAenderung = -0.10;
+            modDauerMinimieren.standardZuschlag = 8;
+            //Optimierung der AsP - Kosten + 8 und je +(2 x AF +12)
+            modAspOptimieren.zuschlag = 12 + 2 * steigerungsFaktor[lBSpalte.SelectedIndex];
+            modAspOptimieren.aspAenderung = -0.10;
+            modAspOptimieren.standardZuschlag = 8;
+            //Potenzierung der Wirkung + 8 und je +(AF + 12)
+            modPotenzieren.zuschlag = 12 + steigerungsFaktor[lBSpalte.SelectedIndex];
+            modPotenzieren.standardZuschlag = 8;
+            modPotenzieren.aspAenderung = 0.80;
+            //Erweiterung der Ziele(freiwillig) + 14 + 2 x AF
+            modErweitrungFreiwillig.zuschlag = 14 + 2 * steigerungsFaktor[lBSpalte.SelectedIndex];
+            modErweitrungFreiwillig.aspAenderung = 0.10;
+            modErweitrungFreiwillig.aspAenderungMinAsp = 1;
+            //Erweiterung der Ziele(selbst) + 12 + AF
+            modErweiterungSelbst.zuschlag = 12 + 2 * steigerungsFaktor[lBSpalte.SelectedIndex];
+            modErweiterungSelbst.aspAenderung = 0.10;
+            modErweiterungSelbst.aspAenderungMinAsp = 1;
+            //Elementare Transition +24 + 4 x AF
+            modElementareTransition.zuschlag = 24 + 4 * steigerungsFaktor[lBSpalte.SelectedIndex];
+            //Elementare Transition Gegenelement  +30 + 4  x AF
+            modElementareTransitionGegenelement.zuschlag = 30 + 4 * steigerungsFaktor[lBSpalte.SelectedIndex];
+            //Dämonische Transition +28 + 4 x AF(evtl. +7)
+            modDämonischeTransition.zuschlag = 28 + 4 * steigerungsFaktor[lBSpalte.SelectedIndex];
+            //Metaphorische Transition +30 + 4 x AF
+            //Naheliegend
+            modMetaphorischeTransition.zuschlag = 30 + 4 * steigerungsFaktor[lBSpalte.SelectedIndex];
+            //Nicht Naheliegend +40 + 4 x AF
+            modMetaphorischnichtNah.zuschlag = 40 + 4 * steigerungsFaktor[lBSpalte.SelectedIndex];
+            //Kombination + 20 + doppelte Summe der AF
+            modKombination.zuschlag = 20 + 2 * steigerungsFaktor[lBSpalte.SelectedIndex];
+            modKomboGegenElement.zuschlag = 7;
+            // Umkehrung mit REVERSALIS +18 + 4 x AF
+            modReversalis.zuschlag = 18 + 4 * steigerungsFaktor[lBSpalte.SelectedIndex];
+            modReversalis.aspAenderungAspPunkte = 2;
+            modReversalis.zauberDauerAenderungMinAktionen = 2;
+            //Synthese + 32 + doppelte Summe der AF
+            modSynthese.zuschlag = 32 + steigerungsFaktor[lBSpalte.SelectedIndex];
+            //merkmale nicht in beiden Zaubern
+            modMerkmalenureinmal.zuschlag = 2;
+            //gegensätzliche Elementare Merkmale
+            modGegensaetzlicheMerkmale.zuschlag = 7;
+            //Dämonische und Elementare Merkmale
+            modDaemonischElementar.zuschlag = 7;
+            // Übertragung in eigene Repräsentation +40 + 4 x AF (evtl.nur +25 + 2 x AF)
+            if(cLBModifikationen.CheckedItems.Contains("Kenntnis beider Repräsentationen"))
+            {
+                modRepraesentation.zuschlag = 25 + 2 * steigerungsFaktor[lBSpalte.SelectedIndex];
+
+            } 
+            else
+                {
+            modRepraesentation.zuschlag = 40 + 4 * steigerungsFaktor[lBSpalte.SelectedIndex];
+
+            }
+            if (cLBModifikationen.CheckedItems.Contains("schelmischer Zauber"))
+            {
+                modRepraesentation.zuschlag += 7;
+            }
+
+            //Kombination von Repräsentationen + 30 + 3xAF
+            modKomboRepraesentationen.zuschlag = 30 + 3 * steigerungsFaktor[lBSpalte.SelectedIndex];
+
             #endregion
             #endregion
 
@@ -173,7 +245,7 @@ namespace DSATools
             }
 
             //Zuschlag für Technick hinzufügen
-
+            //Komplexität für neuen Zauber Berechnen
 
 
             //Ap Berechnen
