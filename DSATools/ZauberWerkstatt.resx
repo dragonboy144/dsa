@@ -117,6 +117,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <metadata name="rTBKleineModifikationen.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="rTBKleineModifikationen.Text" xml:space="preserve">
     <value>Verfeinerte Technik
 
@@ -144,6 +147,9 @@ Mehrer Personen
 
 Weitere Modifikationen: </value>
   </data>
+  <metadata name="richTextBox2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="richTextBox2.Text" xml:space="preserve">
     <value>Veränderung des Wirkungsbereichs
 Frei Veränderbarer Wirkungsbereich
@@ -178,4 +184,7 @@ Dämonisch und Elementare Merkmale
 
 Kombination von Repräsentationen</value>
   </data>
+  <metadata name="gBGrosseModifikationen.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
 </root>

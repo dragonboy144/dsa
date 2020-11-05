@@ -194,6 +194,7 @@
             this.cBEidetisch.TabIndex = 12;
             this.cBEidetisch.Text = "Eidetisches Gedächtnis";
             this.cBEidetisch.UseVisualStyleBackColor = true;
+            this.cBEidetisch.CheckedChanged += new System.EventHandler(this.cBEidetisch_CheckedChanged);
             // 
             // cBAkademisch
             // 
@@ -209,7 +210,6 @@
             // cBGut
             // 
             this.cBGut.AutoSize = true;
-            this.cBGut.Enabled = false;
             this.cBGut.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cBGut.Location = new System.Drawing.Point(138, 128);
             this.cBGut.Name = "cBGut";
@@ -217,6 +217,7 @@
             this.cBGut.TabIndex = 14;
             this.cBGut.Text = "Gutes Gedächtnis";
             this.cBGut.UseVisualStyleBackColor = true;
+            this.cBGut.CheckedChanged += new System.EventHandler(this.cBGut_CheckedChanged);
             // 
             // Form1
             // 
